@@ -1,0 +1,57 @@
+/* CSS layout */
+body {
+
+    background-image: url("LBC.jpg");
+    background-repeat: no-repeat;
+    position: center;
+    background-position: top center;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    background-color: #240000;
+    min-width: 350px;
+    min-height: 350px;
+}
+
+.norm {
+    color: whitesmoke;
+    font-size: 300%;
+   
+}
+
+.chat {
+    background-image: url(Chat.png);
+    font-size: 10px;
+    height: 600px;
+    width: 800px;
+    position: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    overflow-y:auto;
+    position: relative;
+    bottom: 0;
+}
+
+.ctext {
+    padding: 0;
+    color: whitesmoke;
+    font-size: 300%;
+    font-weight: bold;
+    line-height: 32px;
+    margin-left: 10px;
+}
+
+.comp {
+    background-image: url(CM.png);
+    background-repeat: no-repeat;
+    color: transparent;
+    height:46px;
+    width: 243px;
+}
+
+.perc {
+    font-family: "Trebuchet MS";
+    color: deeppink;
+    font-size: 300%;
+    font-weight: bold;
+}
